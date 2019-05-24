@@ -4,10 +4,22 @@ import re
 import json
 
 
+def get_max_pages_each():
+    global url
+    global pages
+    max_pages_each = list()
+    for i in range(len(pages)):
+        response = requests.get(url+str(1)+'/'+pages[i])
+        soup = BeautifulSoup(response.text, "html.parser")
+        num = soup.find('span', class_='disabled total-pages')
+        max_pages_each.append(int(num.text))
+    return max_pages_each
+
+
 url = 'https://ricette.giallozafferano.it/ricette-cat/page'
 pages = ['Antipasti', 'Primi', 'Secondi-piatti',
          'Contorni', 'Dolci-e-Desserts', 'Lievitati', 'Piatti-Unici']
-max_pages_each = [61 ,69, 54, 15, 93, 18, 25]
+max_pages_each = get_max_pages_each()
 
 with open('gz_links.json', 'w') as fp:
     Rlinks = list()
@@ -24,6 +36,3 @@ with open('gz_links.json', 'w') as fp:
             Rlinks.append(links)
     fp.write(json.dumps(Rlinks, indent=4, sort_keys=False))
     print('Done collecting links')
-
-
-
