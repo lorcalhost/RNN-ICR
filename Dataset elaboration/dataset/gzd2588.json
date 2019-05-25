@@ -1,0 +1,54 @@
+{
+    "title": "Caesar salad",
+    "ingredients": [
+        {
+            "ingredient": "Lattuga romana",
+            "quantity": "cespi medi 4"
+        },
+        {
+            "ingredient": "Pane casereccio",
+            "quantity": "2 fette"
+        },
+        {
+            "ingredient": "Parmigiano reggiano",
+            "quantity": "100 g"
+        },
+        {
+            "ingredient": "Aglio",
+            "quantity": "2 spicchi"
+        },
+        {
+            "ingredient": "Worcestershire sauce",
+            "quantity": "1 cucchiaino"
+        },
+        {
+            "ingredient": "Uova",
+            "quantity": "1"
+        },
+        {
+            "ingredient": "Sale fino",
+            "quantity": "q.b."
+        },
+        {
+            "ingredient": "Olio extravergine d'oliva",
+            "quantity": "aromatizzato all'aglio q.b."
+        },
+        {
+            "ingredient": "Pepe nero",
+            "quantity": "q.b."
+        },
+        {
+            "ingredient": "Olio extravergine d'oliva",
+            "quantity": "150 ml"
+        },
+        {
+            "ingredient": "Aceto di vino bianco",
+            "quantity": "1 cucchiaio"
+        },
+        {
+            "ingredient": "Succo di limone",
+            "quantity": "2 cucchiai"
+        }
+    ],
+    "preparation": " Per preparare la Caesar Salad iniziate scegliendo le foglie più tenere e interne della lattuga romana 1; lavatele e asciugatele senza spezzarle. Tagliate il pane a fette alte 1 cm, eliminate la crosta 2 e tagliatelo a quadretti; mettete un cucchiaio di olio aromatizzato all’aglio (oppure frullate uno spicchio di aglio e unitelo all’olio) in una pentola antiaderente 3 e fate tostare i quadretti di pane a fuoco moderato. Proseguite preparando la salsa: mettete nel bicchiere del robot il succo di limone 4, l’uovo freschissimo (la ricetta originale dice che l’uovo deve cuocere nell’acqua bollente per 1 minuto) 5, l’aceto, l’aglio, la salsa worcestershire, il sale, il pepe macinato fresco e cominciate a frullare il composto, unendo poco alla volta l’olio, fino ad ottenere una salsa densa simile alla maionese 6. Servite la Caesar Salad mettendo le foglie di lattuga romana sul fondo, unendo i crostini di pane, le scaglie di parmigiano reggiano e infine condendo il tutto con la salsa ottenuta. "
+}
