@@ -1,7 +1,7 @@
 from textgenrnn import textgenrnn
 
 file_name = "gz_dataset.txt"
-model_name = 'CNN_ICR'   # change to set file name of resulting trained models/texts
+model_name = 'RNN-ICR'   # change to set file name of resulting trained models/texts
 textgen = textgenrnn(name=model_name)
 
 train_function = textgen.train_from_largetext_file
