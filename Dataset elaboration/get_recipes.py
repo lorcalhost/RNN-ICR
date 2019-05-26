@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-import requests
+import urllib3
 from bs4 import BeautifulSoup
 import re
 import json
+import codecs
 
 
 class Recipe():
@@ -11,8 +12,10 @@ class Recipe():
 
     def get(self):
         url = self.url
-        response = requests.get(url)
-        soup = BeautifulSoup(response.text, "html.parser")
+        http = urllib3.PoolManager()
+        response = http.request('GET', url)
+        html = codecs.decode(response.data, 'utf-8')
+        soup = BeautifulSoup(html)
 
         # Title
         Rtitle = soup.find('h1', class_='gz-title-recipe').text
