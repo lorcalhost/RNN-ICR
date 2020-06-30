@@ -7,4 +7,7 @@ To get the dataset run in this order:
 `3_generate_txt_dataset.py` or `3.1_generate_csv_dataset.py` to generate a single txt/csv file from all the extracted recipes  
   
     
-If you want you can play around with the model in Google colab from [this notebook](https://colab.research.google.com/drive/11NF_j7cA1pHDZNoU_6f3D6e3hm0A5KMQ)
+If you want you can play around with the model in Google colab from [this notebook](https://colab.research.google.com/drive/11NF_j7cA1pHDZNoU_6f3D6e3hm0A5KMQ)  
+  
+  
+This project is for demonstration purposes only.
